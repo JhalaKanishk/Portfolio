@@ -1,0 +1,157 @@
+*{
+    list-style: none;
+  
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: #000;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: none;
+    padding: 20px;
+}
+nav a{
+    color: #000;
+    font-weight: 600;
+    margin-left: 5px ;
+    text-decoration: none;
+}
+#downloadBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+section {
+    padding: 20px;
+}
+.hcontent{
+    text-align: center;
+}
+.hcontent h1{
+    text-align: center;
+
+}
+.hcontent h1 span{
+    color: #4caf50;
+}
+.hcontent p{
+    padding: 10px;
+    font-size: 16px;
+    color: #444;
+}
+.hcontent  span{
+    color: #444;
+}
+header .links{
+    margin-top: 20px;
+}
+
+header .home-image img{
+    width: 350px;
+}
+.work{
+    padding: 60px 20px;
+}
+.work img{
+    width: 300px;
+}
+
+.me {
+    width: 150px;
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.me img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#one{
+    color: #fb8500;
+}
+.pcontent{
+    line-height: 1.5rem;
+}
+.ssection{
+    display: flex;
+    line-height: 3rem;
+    gap: 60px;
+}
+#two{
+    color: rgb(0, 255, 0);
+}
+.education .econtent{
+    margin-left: 5%
+}
+.econtent p{
+    font-size: 15px;
+}
+#four{
+    color: #f21b3f;
+}
+
+.hobbies ul li{
+    line-height: 3rem;
+}
+.hcontent{
+    text-align: left;
+}
+#five{
+    color: #ffb703;
+}
+
+footer {
+    color: #000;
+    padding: 1em;
+    bottom: 0;
+    margin-left: 1%;
+    width: 100%;
+}
+#six{
+    color: dodgerblue;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 50px;
+}
+.links a{
+    text-decoration: none;
+    color: #000;
+}
+.contact ul li{
+    line-height: 2rem;
+}
+footer span{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
