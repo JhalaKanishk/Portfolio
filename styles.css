@@ -25,19 +25,27 @@ nav {
 nav a{
     color: #000;
     font-weight: 600;
-    margin-left: 5px ;
+    font-size: 18px;
     text-decoration: none;
+    padding-left: 10px;
+
 }
-#downloadBtn {
+.button-like-link {
+    display: inline-block;
+    margin-top: 20px;
     padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
+    text-decoration: none;
+    background-color: #ffb703; /* Button color */
+    color: #fff; /* Text color */
     border-radius: 5px;
-    margin-top: 5%;
-}
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Hover effect */
+  .button-like-link:hover {
+    background-color: #fec942; /* Button color on hover */
+  }
 
 section {
     padding: 20px;
